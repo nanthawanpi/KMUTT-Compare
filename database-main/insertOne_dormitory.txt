@@ -1,0 +1,123 @@
+---------DORMITORIES-----------
+db.dormitory.insertOne({
+    "dormId": 1,
+    "dormName": "The Cozy Dorm",
+    "status": "empty",
+    "address": {
+	  "dormNumber": "111",
+      "street": "Sukhumvit Road",
+      "subdistrict": "Khlong Toei",
+      "district": "Khlong Toei",
+      "province": "Bangkok",
+      "postalCode": "10110"
+    },
+    "roomCount": 20,
+    "type": "all",
+    "size": Decimal128.fromString("25.5"), // ใช้ Decimal128
+    "min_price": Decimal128.fromString("3000.00"), // ใช้ Decimal128
+    "max_price": Decimal128.fromString("5000.00"), // ใช้ Decimal128
+    "distance": Decimal128.fromString("1.5"), // ใช้ Decimal128
+    "created_at": new Date("2024-11-15T12:00:00Z"),
+    "updated_at": new Date("2024-11-04T12:00:00Z"),
+    "image": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "building_facility": ["CCTV","WiFi","24-hour security"],
+    "room_facility": ["Air conditioning","Desk"],
+	"count_facilities": 5,
+	"rating": {
+	  "totalScore": Decimal128.fromString("10"),
+      "count_votes": 2
+    },
+    "userId": 1
+});
+
+--2
+db.dormitory.insertOne({
+    "dormId": 2,
+    "dormName": "Student Residence",
+    "status": "full",
+    "address": {
+	  "dormNumber": "222",
+      "street": "Phahonyothin Road",
+      "subdistrict": "Chatuchak",
+      "district": "Chatuchak",
+      "province": "Bangkok",
+      "postalCode": "10900"
+    },
+    "roomCount": 30,
+    "type": "f",
+    "size": Decimal128.fromString("20.0"), // ใช้ Decimal128
+    "min_price": Decimal128.fromString("4000.00"), // ใช้ Decimal128
+    "max_price": Decimal128.fromString("6000.00"), // ใช้ Decimal128
+    "distance": Decimal128.fromString("2.0"), // ใช้ Decimal128
+    "created_at": new Date("2024-08-10T12:00:00Z"),
+    "updated_at": new Date("2024-09-01T12:00:00Z"),
+    "image": [
+      "https://example.com/image3.jpg",
+      "https://example.com/image4.jpg"
+    ],
+    "building_facility": [
+      "Gym",
+      "Laundry",
+      "Study room"
+    ],
+    "room_facility": [
+      "Wardrobe",
+      "Refrigerator",
+      "WiFi"
+    ],
+	"count_facilities": 6,
+	"rating": {
+	  "totalScore": Decimal128.fromString("3"),
+      "count_votes": 1
+    },
+    "userId": 2
+  });
+  
+  
+ --3
+  db.dormitory.insertOne({
+    "dormId": 3,
+    "dormName": "Modern Living",
+    "status": "empty",
+    "address": {
+	  "dormNumber": "333",
+      "street": "Ratchadapisek Road",
+      "subdistrict": "Din Daeng",
+      "district": "Din Daeng",
+      "province": "Bangkok",
+      "postalCode": "10400"
+    },
+    "roomCount": 15,
+    "type": "m",
+    "size": Decimal128.fromString("30.0"), // ใช้ Decimal128
+    "min_price": Decimal128.fromString("5000.00"), // ใช้ Decimal128
+    "max_price": Decimal128.fromString("7000.00"), // ใช้ Decimal128
+    "distance": Decimal128.fromString("1.0"), // ใช้ Decimal128
+    "created_at": new Date("2024-09-01T12:00:00Z"),
+    "updated_at": new Date("2024-09-05T12:00:00Z"),
+    "image": [
+      "https://example.com/image5.jpg",
+      "https://example.com/image6.jpg"
+    ],
+    "building_facility": [
+      "Parking",
+      "Garden",
+      "Common area"
+    ],
+    "room_facility": [
+      "Television",
+      "Balcony",
+      "Desk"
+    ],
+	"count_facilities": 6,
+	"rating": {
+	  "totalScore": Decimal128.fromString("4"),
+      "count_votes": 1
+    },
+    "userId": 3
+  });
+  
+  

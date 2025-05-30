@@ -1,0 +1,8 @@
+# Dockerfile for database service
+FROM mongo:4.4
+ENV MONGO_INITDB_ROOT_USERNAME=jipadmin
+ENV MONGO_INITDB_ROOT_PASSWORD=dormkk2
+ENV MONGO_INITDB_DATABASE=dormitories
+
+#COPY dbscript.js /docker-entry-initdb.d/
+#COPY dbinsert.js /docker-entry-initdb.d/

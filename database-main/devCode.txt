@@ -1,0 +1,10 @@
+Code ไว้สำหรับการ dev เพื่อ generate Token เมื่อทำการ Login ผ่าน POST: /api/auth/login
+{
+    "username": "Whales",
+    "password": "Lyd;yoso7j'!1"
+}
+
+{
+    "username": "CodingMan",
+    "password": "Ceasar_111"
+}

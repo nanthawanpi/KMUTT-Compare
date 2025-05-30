@@ -1,0 +1,16 @@
+# Dockerfile for back-end service
+FROM openjdk:18-jdk-alpine
+
+WORKDIR /app
+
+# Copy the Maven wrapper and the Maven configuration into the container
+COPY ./mvnw ./
+COPY ./.mvn ./.mvn
+
+# Copy the rest of the application
+COPY ./ ./
+
+# Set the command to run the application
+CMD ["sh", "-c", "./mvnw clean package -DskipTests && java -jar ./target/*.jar"]
+
+EXPOSE 8080

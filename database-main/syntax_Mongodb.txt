@@ -1,0 +1,34 @@
+show dbs
+
+use _databaseName_
+meaning create or use Database!
+
+db.createCollection("mycollection")
+meaning create collections!
+example: db.createCollection("staff")
+
+show collections 
+
+db.mycollection.drop()
+meaning drop/delete Database!
+example: db.staff.drop()
+
+
+For drop database
+>use mydb
+switched to db mydb
+>db.dropDatabase()
+>{ "dropped" : "mydb", "ok" : 1 }
+
+db.collection.deleteOne()
+meaning delete data in collection!
+example: db.dormitory.deleteOne( { dorm_id: ObjectId("67249758221022df260bac14") } )
+		 db.staff.deleteOne( { staffName: "Nanthawan ice" } )
+		 
+		 
+
+ตั้งค่าให้ ID ของแต่ละ collections เป็น Unique
+db.staff.createIndex({ staffId: 1 }, { unique: true });
+db.user.createIndex({ userId: 1 }, { unique: true });
+db.dormitory.createIndex({ dormId: 1 }, { unique: true });
+db.favorite.createIndex({ favId: 1 }, { unique: true });

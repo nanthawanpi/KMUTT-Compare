@@ -1,0 +1,560 @@
+{
+  "dormitories": [
+    {
+      "id": "1",
+      "name": "Dorm A",
+      "location": "123 Main Street, City Center",
+      "status": "verify",
+      "staffName": "Jeng",
+      "min_price": 3000,
+      "max_price": 5000,
+      "annouce_date": "2025-08-20",
+      "update_date": "2024-08-30",
+      "type": "รวม",
+      "size": 20,
+      "room_facilities": {
+        "เครื่องทำน้ำอุ่น": true,
+        "เครื่องซักผ้า": true,
+        "เครื่องปรับอากาศ": true,
+        "ทีวี": true,
+        "ตู้เย็น": true,
+        "อินเทอร์เน็ต/Wi-Fi ในห้อง": true
+      },
+      "building_facilities": {
+        "มีประตูระบบ Keycard": true,
+        "ยามรักษาความปลอดภัย": true,
+        "กล้องวงจรปิด (CCTV)": true,
+        "ที่จอดรถมอเตอร์ไซด์/จักรยาน": true,
+        "ที่จอดรถยนต์": true,
+        "สระว่ายน้ำ": true,
+        "ลิฟต์": true
+      },
+      "allow_pets": true,
+      "allow_smoking_in_room": false,
+      "promotion": {
+        "active": false,
+        "description": "",
+        "discount_price": null,
+        "promotion_end_date": null
+      },
+      "score": 10,
+      "favorite": true
+    },
+    {
+      "id": "2",
+      "name": "Dorm B",
+      "location": "456 Elm Street, North Side",
+      "status": "verify",
+      "staffName": "Mai",
+      "min_price": 3500,
+      "max_price": 5500,
+      "annouce_date": "2025-09-01",
+      "update_date": "2024-09-01",
+      "type": "หญิง",
+      "size": 30,
+      "room_facilities": {
+        "เครื่องทำน้ำอุ่น": true,
+        "เครื่องซักผ้า": false,
+        "เครื่องปรับอากาศ": true,
+        "ทีวี": false,
+        "ตู้เย็น": true,
+        "อินเทอร์เน็ต/Wi-Fi ในห้อง": true
+      },
+      "building_facilities": {
+        "มีประตูระบบ Keycard": true,
+        "ยามรักษาความปลอดภัย": true,
+        "กล้องวงจรปิด (CCTV)": true,
+        "ที่จอดรถมอเตอร์ไซด์/จักรยาน": true,
+        "ที่จอดรถยนต์": true,
+        "สระว่ายน้ำ": false,
+        "ลิฟต์": true
+      },
+      "allow_pets": false,
+      "allow_smoking_in_room": false,
+      "promotion": {
+        "active": true,
+        "description": "โปรโมชั่นพิเศษสำหรับการจองล่วงหน้า 3 เดือน",
+        "discount_price": 3150,
+        "promotion_end_date": "2025-12-31"
+      },
+      "score": 9,
+      "favorite": true
+    },
+    {
+      "id": "6",
+      "name": "Dorm F",
+      "location": "303 Birch Lane, Central Park",
+      "status": "verify",
+      "staffName": "Pao",
+      "min_price": 3400,
+      "max_price": 5000,
+      "annouce_date": "2025-11-01",
+      "update_date": "2024-11-01",
+      "type": "รวม",
+      "size": 20,
+      "room_facilities": {
+        "เครื่องทำน้ำอุ่น": true,
+        "เครื่องซักผ้า": true,
+        "เครื่องปรับอากาศ": true,
+        "ทีวี": true,
+        "ตู้เย็น": true,
+        "อินเทอร์เน็ต/Wi-Fi ในห้อง": true
+      },
+      "building_facilities": {
+        "มีประตูระบบ Keycard": true,
+        "ยามรักษาความปลอดภัย": true,
+        "กล้องวงจรปิด (CCTV)": true,
+        "ที่จอดรถมอเตอร์ไซด์/จักรยาน": true,
+        "ที่จอดรถยนต์": true,
+        "สระว่ายน้ำ": true,
+        "ลิฟต์": true
+      },
+      "allow_pets": false,
+      "allow_smoking_in_room": false,
+      "promotion": {
+        "active": false,
+        "description": "",
+        "discount_price": null,
+        "promotion_end_date": null
+      },
+      "score": 8,
+      "favorite": true
+    },
+    {
+      "id": "7",
+      "name": "Dorm G",
+      "location": "404 Cedar Street, South Side",
+      "status": "verify",
+      "staffName": "Pik",
+      "min_price": 3100,
+      "max_price": 4700,
+      "annouce_date": "2025-11-15",
+      "update_date": "2024-11-15",
+      "type": "ชาย",
+      "size": 20,
+      "room_facilities": {
+        "เครื่องทำน้ำอุ่น": true,
+        "เครื่องซักผ้า": true,
+        "เครื่องปรับอากาศ": true,
+        "ทีวี": true,
+        "ตู้เย็น": true,
+        "อินเทอร์เน็ต/Wi-Fi ในห้อง": true
+      },
+      "building_facilities": {
+        "มีประตูระบบ Keycard": true,
+        "ยามรักษาความปลอดภัย": true,
+        "กล้องวงจรปิด (CCTV)": true,
+        "ที่จอดรถมอเตอร์ไซด์/จักรยาน": true,
+        "ที่จอดรถยนต์": true,
+        "สระว่ายน้ำ": true,
+        "ลิฟต์": true
+      },
+      "allow_pets": true,
+      "allow_smoking_in_room": true,
+      "promotion": {
+        "active": true,
+        "description": "ลดราคาพิเศษช่วงเทศกาลปีใหม่",
+        "discount_price": 2635,
+        "promotion_end_date": "2025-12-31"
+      },
+      "score": 7,
+      "favorite": true
+    },
+    {
+      "id": "10",
+      "name": "Dorm J",
+      "location": "707 Ash Avenue, Central City",
+      "status": "verify",
+      "staffName": "Jai",
+      "min_price": 3800,
+      "max_price": 5400,
+      "annouce_date": "2026-01-01",
+      "update_date": "2025-01-01",
+      "type": "รวม",
+      "size": 40,
+      "room_facilities": {
+        "เครื่องทำน้ำอุ่น": true,
+        "เครื่องซักผ้า": true,
+        "เครื่องปรับอากาศ": true,
+        "ทีวี": true,
+        "ตู้เย็น": true,
+        "อินเทอร์เน็ต/Wi-Fi ในห้อง": true
+      },
+      "building_facilities": {
+        "มีประตูระบบ Keycard": true,
+        "ยามรักษาความปลอดภัย": true,
+        "กล้องวงจรปิด (CCTV)": true,
+        "ที่จอดรถมอเตอร์ไซด์/จักรยาน": true,
+        "ที่จอดรถยนต์": true,
+        "สระว่ายน้ำ": true,
+        "ลิฟต์": true
+      },
+      "allow_pets": false,
+      "allow_smoking_in_room": false,
+      "promotion": {
+        "active": false,
+        "description": "",
+        "discount_price": null,
+        "promotion_end_date": null
+      },
+      "score": 6,
+      "favorite": true
+    },
+    {
+      "id": "28",
+      "name": "Dorm H",
+      "location": "808 Pine Street, Old Town",
+      "status": "verify",
+      "staffName": "Nok",
+      "min_price": 900,
+      "max_price": 950,
+      "annouce_date": "2025-06-15",
+      "update_date": "2024-06-15",
+      "type": "รวม",
+      "size": 60,
+      "room_facilities": {
+        "เครื่องทำน้ำอุ่น": false,
+        "เครื่องซักผ้า": false,
+        "เครื่องปรับอากาศ": false,
+        "ทีวี": false,
+        "ตู้เย็น": false,
+        "อินเทอร์เน็ต/Wi-Fi ในห้อง": true
+      },
+      "building_facilities": {
+        "มีประตูระบบ Keycard": false,
+        "ยามรักษาความปลอดภัย": false,
+        "กล้องวงจรปิด (CCTV)": false,
+        "ที่จอดรถมอเตอร์ไซด์/จักรยาน": true,
+        "ที่จอดรถยนต์": false,
+        "สระว่ายน้ำ": false,
+        "ลิฟต์": false
+      },
+      "allow_pets": true,
+      "allow_smoking_in_room": true,
+      "promotion": {
+        "active": true,
+        "description": "ลดราคาพิเศษสำหรับนักเรียนใหม่",
+        "discount_price": 800,
+        "promotion_end_date": "2025-09-30"
+      },
+      "score": 5,
+      "favorite": false
+    },
+    {
+      "id": "29",
+      "name": "Dorm I",
+      "location": "909 Maple Avenue, High-End Area",
+      "status": "verify",
+      "staffName": "Som",
+      "min_price": 5500,
+      "max_price": 6000,
+      "annouce_date": "2025-05-01",
+      "update_date": "2024-05-01",
+      "type": "รวม",
+      "room_facilities": {
+        "เครื่องทำน้ำอุ่น": true,
+        "เครื่องซักผ้า": true,
+        "เครื่องปรับอากาศ": true,
+        "ทีวี": true,
+        "ตู้เย็น": true,
+        "อินเทอร์เน็ต/Wi-Fi ในห้อง": true
+      },
+      "building_facilities": {
+        "มีประตูระบบ Keycard": true,
+        "ยามรักษาความปลอดภัย": true,
+        "กล้องวงจรปิด (CCTV)": true,
+        "ที่จอดรถมอเตอร์ไซด์/จักรยาน": true,
+        "ที่จอดรถยนต์": true,
+        "สระว่ายน้ำ": true,
+        "ลิฟต์": true
+      },
+      "allow_pets": false,
+      "allow_smoking_in_room": false,
+      "promotion": {
+        "active": true,
+        "description": "โปรโมชั่นสุดหรู ลดราคาช่วงฤดูร้อน",
+        "discount_price": 4900,
+        "promotion_end_date": "2025-08-31"
+      },
+      "score": 5,
+      "favorite": true
+    },
+    {
+      "id": "23",
+      "name": "Dorm C",
+      "location": "111 Maple Street, Downtown",
+      "status": "verify",
+      "staffName": "Somchai",
+      "min_price": 2500,
+      "max_price": 3000,
+      "annouce_date": "2025-07-15",
+      "update_date": "2024-07-15",
+      "type": "รวม",
+      "size": 70,
+      "room_facilities": {
+        "เครื่องทำน้ำอุ่น": true,
+        "เครื่องซักผ้า": false,
+        "เครื่องปรับอากาศ": true,
+        "ทีวี": false,
+        "ตู้เย็น": true,
+        "อินเทอร์เน็ต/Wi-Fi ในห้อง": true
+      },
+      "building_facilities": {
+        "มีประตูระบบ Keycard": true,
+        "ยามรักษาความปลอดภัย": false,
+        "กล้องวงจรปิด (CCTV)": false,
+        "ที่จอดรถมอเตอร์ไซด์/จักรยาน": true,
+        "ที่จอดรถยนต์": false,
+        "สระว่ายน้ำ": false,
+        "ลิฟต์": false
+      },
+      "allow_pets": true,
+      "allow_smoking_in_room": true,
+      "promotion": {
+        "active": false,
+        "description": "",
+        "discount_price": 0,
+        "promotion_end_date": ""
+      },
+      "score": 7,
+      "favorite": true
+    },
+    {
+      "id": "24",
+      "name": "Dorm D",
+      "location": "222 Oak Street, Central Area",
+      "status": "verify",
+      "staffName": "Chai",
+      "min_price": 1900,
+      "max_price": 2500,
+      "annouce_date": "2025-08-01",
+      "update_date": "2024-08-01",
+      "type": "หญิง",
+      "size": 90,
+      "room_facilities": {
+        "เครื่องทำน้ำอุ่น": true,
+        "เครื่องซักผ้า": true,
+        "เครื่องปรับอากาศ": false,
+        "ทีวี": true,
+        "ตู้เย็น": true,
+        "อินเทอร์เน็ต/Wi-Fi ในห้อง": true
+      },
+      "building_facilities": {
+        "มีประตูระบบ Keycard": false,
+        "ยามรักษาความปลอดภัย": true,
+        "กล้องวงจรปิด (CCTV)": true,
+        "ที่จอดรถมอเตอร์ไซด์/จักรยาน": true,
+        "ที่จอดรถยนต์": false,
+        "สระว่ายน้ำ": false,
+        "ลิฟต์": false
+      },
+      "allow_pets": false,
+      "allow_smoking_in_room": false,
+      "promotion": {
+        "active": true,
+        "description": "โปรโมชั่นลดราคาฤดูฝน",
+        "discount_price": 1800,
+        "promotion_end_date": "2025-12-31"
+      },
+      "score": 4,
+      "favorite": true
+    },
+    {
+      "id": "20",
+      "name": "Dorm E",
+      "location": "333 Pine Avenue, Old Town",
+      "status": "verify",
+      "staffName": "Nok",
+      "min_price": 2800,
+      "max_price": 3000,
+      "annouce_date": "2025-06-15",
+      "update_date": "2024-06-15",
+      "type": "ชาย",
+      "room_facilities": {
+        "เครื่องทำน้ำอุ่น": true,
+        "เครื่องซักผ้า": true,
+        "เครื่องปรับอากาศ": true,
+        "ทีวี": true,
+        "ตู้เย็น": true,
+        "อินเทอร์เน็ต/Wi-Fi ในห้อง": true
+      },
+      "building_facilities": {
+        "มีประตูระบบ Keycard": true,
+        "ยามรักษาความปลอดภัย": true,
+        "กล้องวงจรปิด (CCTV)": true,
+        "ที่จอดรถมอเตอร์ไซด์/จักรยาน": true,
+        "ที่จอดรถยนต์": true,
+        "สระว่ายน้ำ": false,
+        "ลิฟต์": true
+      },
+      "allow_pets": true,
+      "allow_smoking_in_room": true,
+      "promotion": {
+        "active": false,
+        "description": "",
+        "discount_price": 0,
+        "promotion_end_date": ""
+      },
+      "score": 10,
+      "favorite": true
+    }
+  ],
+  "users": [
+    {
+      "username": "testuser1",
+      "password": "password123",
+      "role": "user",
+      "email": "testuser1@example.com",
+      "id": "7bc5"
+    },
+    {
+      "username": "testuser2",
+      "password": "password456",
+      "role": "user",
+      "email": "testuser2@example.com",
+      "id": "480d"
+    },
+    {
+      "username": "adminuser",
+      "password": "adminpass",
+      "role": "admin",
+      "email": "adminuser@example.com",
+      "id": "3e28"
+    },
+    {
+      "id": "4d64",
+      "email": "testuser1@example.com",
+      "password": "password123"
+    },
+    {
+      "id": "9735",
+      "email": "adminuser@example.com",
+      "password": "adminpass"
+    },
+    {
+      "id": "6e63",
+      "email": "testuser1@example.com",
+      "password": "password123"
+    },
+    {
+      "id": "2ecc",
+      "email": "testuser1@example.com",
+      "password": "password123"
+    },
+    {
+      "id": "6ede",
+      "email": "testuser1@example.com",
+      "password": "password123"
+    },
+    {
+      "id": "c5cc",
+      "email": "testuser1@example.com",
+      "password": "password123"
+    },
+    {
+      "id": "d15c",
+      "email": "testuser1@example.com",
+      "password": "password123"
+    },
+    {
+      "id": "cf63",
+      "email": "testuser1@example.com",
+      "password": "password123"
+    },
+    {
+      "id": "7864",
+      "email": "testuser1@example.com",
+      "password": "password123"
+    },
+    {
+      "id": "2214",
+      "email": "testuser1@example.com",
+      "password": "password123"
+    },
+    {
+      "id": "2f6d",
+      "email": "testuser1@example.com",
+      "password": "password123"
+    },
+    {
+      "id": "f4dd",
+      "email": "testuser1@example.com",
+      "password": "password123"
+    },
+    {
+      "id": "b9a5",
+      "email": "testuser1@example.com",
+      "password": "password123"
+    },
+    {
+      "id": "a5f0",
+      "email": "testuser1@example.com",
+      "password": "password123"
+    },
+    {
+      "id": "0a97",
+      "email": "testuser1@example.com",
+      "password": "password123"
+    },
+    {
+      "id": "e8d9",
+      "email": "testuser1@example.com",
+      "password": "password123"
+    },
+    {
+      "id": "7af2",
+      "email": "testuser1@example.com",
+      "password": "password123"
+    },
+    {
+      "id": "33e6",
+      "email": "testuser1@example.com",
+      "password": "password123"
+    },
+    {
+      "id": "9cfe",
+      "email": "testuser1@example.com",
+      "password": "password123"
+    },
+    {
+      "id": "d7e7",
+      "email": "testuser1@example.com",
+      "password": "password123"
+    },
+    {
+      "id": "fae8",
+      "email": "testuser1@example.com",
+      "password": "password123"
+    },
+    {
+      "id": "ee4f",
+      "email": "testuser1@example.com",
+      "password": "password123"
+    },
+    {
+      "id": "101a",
+      "email": "testuser1@example.com",
+      "password": "password123"
+    },
+    {
+      "id": "0f3a",
+      "email": "testuser1@example.com",
+      "password": "password123"
+    },
+    {
+      "id": "c7f3",
+      "email": "testuser1@example.com",
+      "password": "password123"
+    },
+    {
+      "id": "65d4",
+      "email": "testuser1@example.com",
+      "password": "password123"
+    },
+    {
+      "id": "8864",
+      "email": "testuser1@example.com",
+      "password": "password123"
+    }
+  ]
+}
