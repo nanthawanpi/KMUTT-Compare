@@ -20,5 +20,3 @@
 ## HTTP status codes
 >Whenever the overall application status is OK, the HTTP status code in the status page response MUST be set to 200 (OK).
 Otherwise, a 5XX error code SHOULD be set. For example, code 500 (Internal Server Error) could be used. Optionally, non-critical WARN status may still respond with 200.
-
-![GV0zXR6aIAAwudl](https://github.com/user-attachments/assets/e48b2db8-658b-4f29-bb41-fc497baae1c6)
